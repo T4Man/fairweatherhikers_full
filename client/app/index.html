@@ -47,7 +47,7 @@
 		</div>
 
 	  <aside id="all-trails">
-	    <h2>ALL TRAILS</h2>
+	    <h2>FAIR WEATHER TRAILS</h2>
 	    <div class="trail-list" data-ng-controller="TrailsController as trailsctrl" data-ng-init="trailsctrl.getAll()">
 	    <default-trail-list-item data-ng-repeat="trail in trailsctrl.trails" data-trail="trail">
 	    <li>{{trail.trailName}} | {{trail.distance}} miles | rating: {{trail.difficulty}}</li>
