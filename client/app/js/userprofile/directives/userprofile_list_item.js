@@ -5,7 +5,7 @@ module.exports = function(app) {
       replace: true,
       require: '^ngController',
       transclude: true,
-      templateUrl: '/templates/userprofile/directives/userprofile_list_item.html',
+      templateUrl: '/templates/userprofile/directives/userprofile_view.html',
       scope: {
         favorite: '='
       }
